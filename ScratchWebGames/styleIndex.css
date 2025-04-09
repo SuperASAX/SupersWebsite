@@ -1,0 +1,104 @@
+.originalButton {
+    background-color: #ffffff; /* Green */
+    width: 485px;
+    border: none;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 32px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border: 5px solid #0020af;
+    height: 485px;
+}
+.originalButton:hover {
+    background-color: #0020af;
+}
+.gdText {
+    font-family: "gdFont", Arial, Helvetica, sans-serif;
+    -webkit-text-stroke: 2.56px black;
+    color: #bbff44;
+    font-size: 60px;
+}
+.gdText:hover {
+    font-size: 75px;
+    color: #bbff44;
+    -webkit-text-stroke: 4px black;
+}
+
+.overItText {
+    font-family: "overItFont", Arial, Helvetica, sans-serif;
+    color: #000000;
+    font-size: 55px;
+}
+.overItText:hover {
+    font-size: 70px;
+    color: #000000;
+}
+
+.satisfyingText {
+    font-family: "satisfyingFont", Arial, Helvetica, sans-serif;
+    color: #000000;
+    font-size: 66px;
+    font-weight: bolder;
+}
+.satisfyingText:hover {
+    font-size: 100px;
+    color: #000000;
+}
+
+.clickerText {
+    font-family: "clickerFont", Arial, Helvetica, sans-serif;
+    color: #000000;
+    font-size: 66px;
+}
+.clickerText:hover {
+    font-size: 100px;
+    color: #000000;
+}
+
+.playerBattleText {
+    font-family: "scratchFont", Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    font-size: 66px;
+    font-weight:900;
+    -webkit-text-stroke: 4px #f9a737;
+}
+.playerBattleText:hover {
+    font-size: 75px;
+}
+
+.platformerText {
+    font-family: "scratchFont", Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    font-size: 66px;
+    font-weight:900;
+    -webkit-text-stroke: 4px #f9a737;
+}
+.platformerText:hover {
+    font-size: 90px;
+}
+
+@font-face {
+    font-family: 'gdFont';
+    src: url('./data/oxygene-1.regular.ttf');
+}
+@font-face {
+    font-family: 'overItFont';
+    src: url('./data/P22\ Parrish\ Roman.ttf');
+}
+@font-face {
+    font-family: 'satisfyingFont';
+    src: url('./data/GreatVibes-Regular.ttf');
+}
+@font-face {
+    font-family: 'clickerFont';
+    src: url('./data/ClickerImpact-Regular.otf');
+}
+@font-face {
+    font-family: 'scratchFont';
+    src: url('./data/BLACKBOYSONMOPEDS.ttf');
+}

@@ -1,0 +1,117 @@
+.originalButton {
+    background-color: #ffffff; /* Green */
+    width: 485px;
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 0px 0px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-bottom: 12.5px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border: 5px solid #f9a737;
+    height: 66px;
+}
+.originalButton:hover {
+    background-color: #f9a737;
+    color: white;
+    font-size: 35px;
+}
+.container {
+    display: grid;
+    grid-template-columns: 505px 505px 505px;
+    padding: 10px;
+    gap: 10px 10px;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+}
+.gameContainer {
+    border: 50px 50px rgb(0, 0, 0);
+    background-color: rgb(199, 199, 199);    
+    text-align: center;
+}
+.fullCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.reluctantCredit {
+    background-color: #c7c7c7bb;
+    left: 0px;
+    width: 100%;
+}
+iframe {
+    padding: 10px;
+}
+.noNewLine {
+    display: inline;
+}
+.topBar {
+    position: fixed;
+    backdrop-filter: blur(8px) saturate(100%);
+    -webkit-backdrop-filter: blur(8px) saturate(100%);
+    background-color: rgba(17, 25, 40, 0.25);
+    border: 1px solid rgb(0, 0, 0);
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    text-align: center;
+}
+p {
+    font-family: "pusabFont", Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+h2 {
+    font-family: "pusabFont", Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+a {
+  font-family: "pusabFont", Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+}
+@keyframes color {
+    0% {
+      background-color: red; 
+    }
+    10% {
+      background-color: orange; 
+    }
+    20% {
+      background-color: yellow;  
+    }
+    30% {
+      background-color: Chartreuse;  
+    }
+    40% {
+      background-color: cyan; 
+    }
+    50% {
+      background-color: blue; 
+    }
+    60% {
+      background-color: DarkOrchid;  
+    }
+    70% {
+      background-color: DeepPink;
+    }
+    80% {
+      background-color: red; 
+    }
+    90% {
+      background-color: red; 
+    }
+    100% {
+      background-color: red;
+    }
+  }
+  
+.satisfyingContainer {
+    animation: color 32s infinite;
+}
+
+@font-face {
+  font-family: 'pusabFont';
+  src: url('./data/PUSAB.otf');
+}
